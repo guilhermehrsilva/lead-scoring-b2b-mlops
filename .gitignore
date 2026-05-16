@@ -1,0 +1,34 @@
+# Ambientes Virtuais (Virtual Environments)
+.venv/
+venv/
+env/
+
+# Configurações de IDE e Editor
+.vscode/
+.idea/
+
+# Jupyter Notebook e Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Dados e Arquivos Sensíveis
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+*.sqlite
+*.db
+
+# Variáveis de Ambiente e Segredos
+.env
+*.env
+secret*
+credentials*
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
